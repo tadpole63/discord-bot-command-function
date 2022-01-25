@@ -90,6 +90,8 @@ commandsInfo = ("")
 #water fact variables
 wf1 = "Water is made of Hydrogen and Oxygen!"
 wf2 = "water is clear!"
+wf2 = ("when preforming electrolysis on a container of water, you can decompose the water into oxygen and" +
+" hydrogen gas!")
 
 bot_live = str(input(""))
 
