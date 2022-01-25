@@ -163,18 +163,16 @@ while bot_live == "start":
             print(commandsInfo)
         elif specific_item == "end":
             print()
-
-        elif user_slash == "/water fact":
-            waterFact = [wf1, wf2]
-            printWaterFact = random.choice(waterFact)
-            print(printWaterFact)
         else:
             print("there was an error processing your entrance.")
             print("The most probable issue was invalid entrance syntax")
             print("If this error keeps occuring, please contact the script author at tadpierski63@gmail.com")
-    else:
-        print("There was an issue processig your request.  Please contact the author of the script at tadpierski63@gmail.com")
-
+    
+    elif user_slash == "/water fact":
+        waterFact = [wf1, wf2]
+        printWaterFact = random.choice(waterFact)
+        print(printWaterFact)
+    
 
     #print instructions for a reiteration of above selection structure
     print("To use the slash command feature again, please enter 'start' or 'end' to end.")
