@@ -190,8 +190,3 @@ while bot_live == "start":
     while bot_live != "start":
         break
     #if again entered, above will reiterate
-
-if bot_live == "end":
-    print("Thanks!")
-
-#TabbyCat discord bot
