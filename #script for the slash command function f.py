@@ -92,6 +92,11 @@ wf1 = "Water is made of Hydrogen and Oxygen!"
 wf2 = "water is clear!"
 wf2 = ("when preforming electrolysis on a container of water, you can decompose the water into oxygen and" +
 " hydrogen gas!")
+#affirmation message variable
+affirmation = "you are great.  you are worth it."
+affirmation_2 = "you are needed."
+affirmation_3 = "you are loved."
+affirmation_list = [affirmation, affirmation_2, affirmation_3]
 
 bot_live = str(input(""))
 
@@ -172,6 +177,10 @@ while bot_live == "start":
         waterFact = [wf1, wf2]
         printWaterFact = random.choice(waterFact)
         print(printWaterFact)
+    
+    elif user_slash == "/affirmation":
+        affirmation_print = random.choice(affirmation_list)
+        print(affirmation_print)
     
 
     #print instructions for a reiteration of above selection structure
